@@ -1,6 +1,7 @@
 var animal = 'dog'
 
 function myAnimal() {
+  var innerScope('cat')
   return animal
 }
 
